@@ -1,3 +1,21 @@
+
+# About Notes
+add this `  \ {'path': '~/workspace/lunr.js/vimwiki', 'syntax': 'markdown', 'ext': '.md'}, ` to your `~/.vimrc` config
+
+then switch with `<leader>ws`
+
+
+# Notes
+
+
+-> cheatsheet
+* makefile: https://devhints.io/makefile
+
+
+
+
+
+
 # Lunr.js
 
 [![Join the chat at https://gitter.im/olivernn/lunr.js](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/olivernn/lunr.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
