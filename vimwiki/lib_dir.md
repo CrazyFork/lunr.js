@@ -5,13 +5,13 @@
 ```
 lib
 ├── builder.js
-├── field_ref.js
-├── idf.js
+├── field_ref.js                  # -
+├── idf.js                        # a tf-idf implementation
 ├── index.js
 ├── lunr.js
-├── match_data.js
-├── pipeline.js
-├── query.js                      # 
+├── match_data.js                 # - 
+├── pipeline.js                   # process term in pipeline
+├── query.js                      # -
 ├── query_lexer.js                # parse string into set of tokens
 ├── query_parse_error.js          # parser error
 ├── query_parser.js               # query parser that parse tokens
