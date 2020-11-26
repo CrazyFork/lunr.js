@@ -4,7 +4,7 @@
 
 ```
 lib
-├── builder.js
+├── builder.js                    # a builder build search indexes, td, idf, 
 ├── field_ref.js                  # -
 ├── idf.js                        # a tf-idf implementation
 ├── index.js
