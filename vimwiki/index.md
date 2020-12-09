@@ -10,14 +10,40 @@
 
 ->  
 
+
+-> FieldRef
+:desc: 
+a tuple of (field, docRef, string)
+
 -> Field
 
+
+
 -> Token
+:desc: 
+a token is a string with some meta data inside
+
 
 -> Term
 :desc: 
 
+a term is a meaningful string token.
+
+
 -> QueryLexer
+:desc: 
+a lexer job is parsing out meaningful tokens out of a string
+
+type of lexer = 
+```
+{
+    type: type,
+    str: this.sliceString(),
+    start: this.start,
+    end: this.pos
+  }
+```
+
 
 
 -> Clause

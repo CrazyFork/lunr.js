@@ -1,28 +1,31 @@
 
 ## dir overview
 
+d      // be done with
+
+
 
 ```
 lib
 ├── builder.js                    # a builder build search indexes, td, idf, 
-├── field_ref.js                  # -
+├── field_ref.js                  d# a tuple of (field, docRef, string)
 ├── idf.js                        # a tf-idf implementation
 ├── index.js
 ├── lunr.js                       # export entry
-├── match_data.js                 # - 
-├── pipeline.js                   # process term in pipeline
-├── query.js                      # -
-├── query_lexer.js                # parse string into set of tokens
-├── query_parse_error.js          # parser error
-├── query_parser.js               # query parser that parse tokens
-├── set.js                        # a custom set
-├── stemmer.js                    # set implementation
-├── stop_word_filter.js           # stop word filter
-├── token.js                      # represent a word token
+├── match_data.js                 # match data ? 
+├── pipeline.js                   d# process term in pipeline, each pipeline using output of previous pipeline as input.
+├── query.js                      d# represent a complete query, that parsed out of query string
+├── query_lexer.js                d# parse string into set of meaningful tokens
+├── query_parse_error.js          d# query parser error
+├── query_parser.js               d# parse lexers into clauses
+├── set.js                        d# a custom set
+├── stemmer.js                    d# transform word to its basic form
+├── stop_word_filter.js           d# stop word filter
+├── token.js                      d# a token is a string with some meta data inside
 ├── token_set.js                  #! trie data structure, define how a term matchs with each other, fromFuzzyString is a very important method
-├── token_set_builder.js
-├── tokenizer.js                  # create token
-├── trimmer.js                    # trim token
-├── utils.js                      # utils
-└── vector.js                     # vector to cacl similarity
+├── token_set_builder.js          # 
+├── tokenizer.js                  d# create token outof a stringable object.
+├── trimmer.js                    d# remove spaces on string's both end
+├── utils.js                      d# utils
+└── vector.js                     d# specially designed vector structure that is used for calculate similarity
 ```
