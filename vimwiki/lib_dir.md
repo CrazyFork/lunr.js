@@ -7,12 +7,12 @@ d      // be done with
 
 ```
 lib
-├── builder.js                    # a builder build search indexes, td, idf, 
+├── builder.js                    d# a builder builds index(tf-idf, invertedIndex, score, vector) for a specified docset
 ├── field_ref.js                  d# a tuple of (field, docRef, string)
-├── idf.js                        # a tf-idf implementation
-├── index.js
+├── idf.js                        d# a tf-idf implementation 
+├── index.js                      #  
 ├── lunr.js                       # export entry
-├── match_data.js                 # match data ? 
+├── match_data.js                 d# match data, info about how term is matched, with what score
 ├── pipeline.js                   d# process term in pipeline, each pipeline using output of previous pipeline as input.
 ├── query.js                      d# represent a complete query, that parsed out of query string
 ├── query_lexer.js                d# parse string into set of meaningful tokens
