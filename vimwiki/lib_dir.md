@@ -7,10 +7,10 @@ d      // be done with
 
 ```
 lib
-├── builder.js                    d# a builder builds index(tf-idf, invertedIndex, score, vector) for a specified docset
+├── builder.js                    d# !a builder builds index(tf-idf, invertedIndex, score, vector) for a specified docset
 ├── field_ref.js                  d# a tuple of (field, docRef, string)
 ├── idf.js                        d# a tf-idf implementation 
-├── index.js                      #  
+├── index.js                      d# ! this is the main entry for query underlying index data
 ├── lunr.js                       # export entry
 ├── match_data.js                 d# match data, info about how term is matched, with what score
 ├── pipeline.js                   d# process term in pipeline, each pipeline using output of previous pipeline as input.
